@@ -1,0 +1,98 @@
+{
+  "name": "uk-airport-drop-off-charges",
+  "title": "UK Airport Drop-Off Charges",
+  "description": "Verified drop-off and pick-up charges at 23 UK airports, each row dated and sourced to the airport's own published charges.",
+  "homepage": "https://airportdropoffcharges.co.uk",
+  "version": "2026-08-17",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Airport Drop-Off Charges",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "airports-csv",
+      "path": "data/airports.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "airport",
+            "type": "string",
+            "description": "Airport name"
+          },
+          {
+            "name": "iata",
+            "type": "string",
+            "description": "IATA code"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "UK region"
+          },
+          {
+            "name": "fee_gbp",
+            "type": "number",
+            "description": "Drop-off fee in GBP at the zone nearest the terminal (0 = free)"
+          },
+          {
+            "name": "free_minutes",
+            "type": "integer",
+            "description": "Minutes included in the fee (0 = charge per entry, no window)"
+          },
+          {
+            "name": "window_note",
+            "type": "string",
+            "description": "Plain-English description of the charge window"
+          },
+          {
+            "name": "overstay",
+            "type": "string",
+            "description": "What staying beyond the window costs"
+          },
+          {
+            "name": "free_alternative",
+            "type": "string",
+            "description": "Name of the airport's free/cheaper drop-off option ('None' if none published)"
+          },
+          {
+            "name": "alt_detail",
+            "type": "string",
+            "description": "Detail of the free alternative (free period, walk/shuttle transfer)"
+          },
+          {
+            "name": "verified",
+            "type": "date",
+            "description": "Date this row was checked against the airport's own site"
+          },
+          {
+            "name": "verification",
+            "type": "string",
+            "description": "'official' = confirmed on the airport's own website on that date"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "URL of the airport's official page"
+          }
+        ]
+      }
+    },
+    {
+      "name": "airports-json",
+      "path": "data/airports.json",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}
