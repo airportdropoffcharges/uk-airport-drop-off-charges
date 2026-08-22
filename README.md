@@ -1,10 +1,10 @@
 # UK Airport Drop-Off Charges
 
-Verified drop-off ("kiss and fly") and pick-up charges at 23 UK airports.
+Verified drop-off ("kiss and fly") and pick-up charges at 29 UK airports.
 
 For each airport: the fee at the zone nearest the terminal, the free/included time window, overstay penalties, how you pay, and the free or cheaper alternative the airport keeps (with walk/shuttle detail). Every row is verified against the airport's own published charges and carries the date it was checked. The full dataset is re-verified quarterly and after any reported change.
 
-Key facts as of 2026-08-17: the average fee across the 22 charging airports is £6.93; Gatwick and Stansted are joint-highest at £10; Cornwall Newquay is the only airport tracked with free terminal drop-off; at nearly every airport the same charge applies to pick-ups (Manchester charges £100 for pick-ups attempted in the drop-off zone).
+Key facts as of 2026-08-21: the average fee across the 27 charging airports is £6.51; Gatwick and Stansted are joint-highest at £10; Cornwall Newquay and Humberside are the only airports tracked with free terminal drop-off; at nearly every airport the same charge applies to pick-ups (Manchester charges £100 for pick-ups attempted in the drop-off zone).
 
 Maintained independently by Airport Drop-Off Charges (https://airportdropoffcharges.co.uk); not affiliated with any airport. Licence: CC BY 4.0 — free to reuse with attribution to airportdropoffcharges.co.uk. Live data endpoints, an embeddable widget and an MCP server are documented at https://airportdropoffcharges.co.uk/ai/.
 
@@ -47,4 +47,4 @@ Maintained independently by Airport Drop-Off Charges (https://airportdropoffchar
 ## Corrections
 
 Charges change without notice. Spotted an error? Email hello@airportdropoffcharges.co.uk —
-corrections are made visibly and dated. Last full review: **2026-08-17**.
+corrections are made visibly and dated. Last full review: **2026-08-21**.

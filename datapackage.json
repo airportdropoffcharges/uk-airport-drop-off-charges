@@ -1,9 +1,9 @@
 {
   "name": "uk-airport-drop-off-charges",
   "title": "UK Airport Drop-Off Charges",
-  "description": "Verified drop-off and pick-up charges at 23 UK airports, each row dated and sourced to the airport's own published charges.",
+  "description": "Verified drop-off and pick-up charges at 29 UK airports, each row dated and sourced to the airport's own published charges.",
   "homepage": "https://airportdropoffcharges.co.uk",
-  "version": "2026-08-17",
+  "version": "2026-08-21",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -13,7 +13,7 @@
   ],
   "contributors": [
     {
-      "title": "Airport Drop-Off Charges",
+      "title": "Richard Tipney",
       "role": "author"
     }
   ],
