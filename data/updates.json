@@ -1,0 +1,67 @@
+{
+  "updates": [
+    {
+      "date": "2026-09-01",
+      "iata": "LPL",
+      "type": "rise",
+      "text": "Liverpool raised its Express gate rate from £6 to £7 for up to 10 minutes — its second rise in a year (£5 in 2025). The longer tiers (£10/20 min, £25/hour) are unchanged.",
+      "source": "https://www.liverpoolairport.com/parking/express-drop-off"
+    },
+    {
+      "date": "2026-08-25",
+      "iata": null,
+      "type": "review",
+      "text": "Full verification sweep of all 29 airports: drop-off zone locations, payment methods and deadlines, pick-up rules and Blue Badge arrangements checked against each airport's own pages.",
+      "source": null
+    },
+    {
+      "date": "2026-08-25",
+      "iata": "EMA",
+      "type": "correction",
+      "text": "East Midlands corrected: the Rapid Drop Off is £5 for up to 15 minutes (we previously showed £6 for 30 minutes, a figure that belonged to Short Stay 1). The airport's page also confirms the lanes are drop-off only.",
+      "source": "https://www.eastmidlandsairport.com/parking/pick-up-and-drop-off/"
+    },
+    {
+      "date": "2026-08-25",
+      "iata": "LPL",
+      "type": "rise",
+      "text": "Liverpool's Express gate rate confirmed at £6 for 10 minutes — up from £5 in 2025. The rise is now in our fee-history table.",
+      "source": "https://www.liverpoolairport.com/parking/express-drop-off"
+    },
+    {
+      "date": "2026-08-25",
+      "iata": "SEN",
+      "type": "correction",
+      "text": "Southend updated: the Express area is barrierless ANPR paid online by midnight the following day, and the airport has withdrawn its free drop-off option entirely.",
+      "source": "https://londonsouthendairport.com/getting-to-and-from/parking/express-pick-up-drop-off/"
+    },
+    {
+      "date": "2026-07-01",
+      "iata": "CWL",
+      "type": "rise",
+      "text": "Cardiff raised its drop-off charge from £3 to £4.50 for 10 minutes (and £4.50 per additional 10 minutes) — up 50%.",
+      "source": "https://www.cardiff-airport.com"
+    },
+    {
+      "date": "2026-03-19",
+      "iata": "STN",
+      "type": "rise",
+      "text": "Stansted's Express Set Down changed to £10 for up to 15 minutes and £28 for over 15 minutes.",
+      "source": "https://www.stanstedairport.com/parking/pick-up-and-drop-off/"
+    },
+    {
+      "date": "2026-03-09",
+      "iata": "BFS",
+      "type": "rise",
+      "text": "Belfast International raised its drop-off charge from £3 to £5 for 10 minutes — a 66% rise, the largest recorded in our index.",
+      "source": "https://www.belfastairport.com"
+    },
+    {
+      "date": "2026-01-06",
+      "iata": "LCY",
+      "type": "new-charge",
+      "text": "London City introduced a drop-off charge for the first time: £8 for up to 5 minutes, £1 per additional minute to a 10-minute maximum, ANPR-enforced and paid online.",
+      "source": "https://dropoff.londoncityairport.com"
+    }
+  ]
+}

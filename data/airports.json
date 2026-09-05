@@ -4,7 +4,7 @@
     "publisher": "Airport Drop-Off Charges",
     "url": "https://airportdropoffcharges.co.uk",
     "licence": "CC BY 4.0 (attribution: airportdropoffcharges.co.uk)",
-    "last_full_review": "2026-08-21",
+    "last_full_review": "2026-08-25",
     "notes": "Fees are for the forecourt / premium drop-off zone nearest the terminal. 'Free alternative' is the airport's own free or lower-cost drop-off option. Always confirm with the airport before travelling: charges change without notice.",
     "verification_levels": {
       "official": "Confirmed against the airport's own website on the date shown",
@@ -28,7 +28,7 @@
         "detail": "Free drop-off with free bus transfer to terminal",
         "transfer": "bus"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.heathrow.com/transport-and-directions/terminal-drop-off-charge",
       "previous_fee_gbp": 5.0,
@@ -41,7 +41,34 @@
       "rail": "the Underground and rail stations sit directly beneath the terminals — the Piccadilly line serves all terminals, with the Elizabeth line and Heathrow Express (about 15 minutes to Paddington) from Terminals 2 and 3",
       "rail_source": "https://www.heathrow.com/transport-and-directions/by-rail-or-train",
       "fact": "When Heathrow opened as London's new civil airport on 1 January 1946, its “terminals” were ex-military marquees along the Bath Road, furnished with floral armchairs and vases of fresh flowers. The first departure was a converted Lancaster bomber named Starlight, bound for Buenos Aires.",
-      "fact_source": "https://www.heathrow.com/company/about-heathrow/our-history"
+      "fact_source": "https://www.heathrow.com/company/about-heathrow/our-history",
+      "dropoff_location": "The drop-off zones are on the forecourt outside Departures at every terminal, reached by a ramp from the airport road system. There are no barriers and nothing to pay on site — cameras read your number plate on entry.",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "note": "Zone signed off Constellation Way"
+        },
+        {
+          "name": "Terminal 3",
+          "note": "Zone signed off Cosmopolitan Way / Camborne Road"
+        },
+        {
+          "name": "Terminal 4",
+          "note": "Zone signed off Stratford Road"
+        },
+        {
+          "name": "Terminal 5",
+          "note": "Zone signed off Wayfarer Road"
+        }
+      ],
+      "terminals_note": "The same £7 charge applies at every terminal.",
+      "pay_methods": "Online at heathrowdropoff.apcoa.com, by automated phone on 0330 008 5600, or automatically with a prepaid personal or business account (autopay)",
+      "pay_deadline": "by midnight the day after you use the zone",
+      "pay_penalty": "Non-payment brings an £80 Parking Charge, reduced to £40 if paid within 14 days.",
+      "pay_url": "https://heathrowdropoff.apcoa.com",
+      "pay_note": "There are no barriers or pay machines at the zones — ANPR cameras log your visit and you pay afterwards, or in advance with an account.",
+      "pickup_note": "Pick-ups and waiting are not permitted in Heathrow's drop-off zones, and unattended vehicles can be towed. Collect arriving passengers from the Terminal car parks, or use the Park & Ride car parks and meet them off the free transfer bus.",
+      "exemptions": "Blue Badge holders can register for a 100% discount — it applies in any vehicle carrying the badge holder, including taxis, but you must apply at least 7 days ahead. Motorbikes, buses and roadside-recovery vehicles are also exempt; electric vehicles are not."
     },
     {
       "airport": "London Gatwick",
@@ -50,7 +77,7 @@
       "fee_gbp": 10.0,
       "free_minutes": 10,
       "window_note": "£10 for up to 10 minutes",
-      "overstay": "£1 per additional minute, up to a maximum of 20 minutes",
+      "overstay": "£1 per additional minute up to 20 minutes; 30-minute maximum stay, £30 maximum daily charge",
       "payment": "Online or by phone by midnight the next day",
       "free_alternative": {
         "exists": true,
@@ -58,7 +85,7 @@
         "detail": "2 hours free, shuttle to terminal",
         "transfer": "shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.gatwickairport.com",
       "official_check": "https://www.gatwickairport.com",
@@ -73,7 +100,26 @@
       "rail": "Gatwick Airport station is at the South Terminal, about a five-minute walk from the concourses, with the non-stop Gatwick Express to London Victoria plus Southern and Thameslink services",
       "rail_source": "https://www.gatwickairport.com/to-and-from/by-train.html",
       "fact": "Gatwick's Art Deco “Beehive” of the mid-1930s was the world's first circular airport terminal, linked to its own railway station by subway so passengers could walk from train to plane under cover. The listed building still stands beside the modern airport.",
-      "fact_source": "https://www.gatwickairport.com/company/about-us/our-history.html"
+      "fact_source": "https://www.gatwickairport.com/company/about-us/our-history.html",
+      "dropoff_location": "Both drop-off zones are barrier-free ANPR areas on the lower level of each terminal — no ticket to take and nothing to pay on site.",
+      "terminals": [
+        {
+          "name": "North Terminal",
+          "note": "Lower level, between the Sofitel hotel and the multi-storey car park"
+        },
+        {
+          "name": "South Terminal",
+          "note": "Lower level — follow the Drop Off signs from the M23 J9a approach"
+        }
+      ],
+      "terminals_note": "The same £10 charge applies at both terminals.",
+      "pay_methods": "Online at Gatwick's post-pay site (postpay.dropoff.gatwickairport.com), by automated phone on 0330 174 4503, or automatically with an AutoPay account",
+      "pay_deadline": "by midnight the day after you use the zone",
+      "pay_penalty": "Unpaid visits become a Parking Charge Notice, issued and enforced by Gatwick's parking partner Times24.",
+      "pay_url": "https://postpay.dropoff.gatwickairport.com",
+      "pay_note": "There are no barriers, tickets or machines — cameras record your plate and you pay afterwards.",
+      "pickup_note": "Don't use the drop-off zone for pick-ups. Gatwick's express pick-up areas are inside the Short Stay car parks — Car Park 6 (Level 4) at North Terminal and Car Park 3 (ground floor) at South Terminal — at standard Short Stay rates, and you must stay with the car, as unattended vehicles can receive a Parking Charge Notice. The cheaper option is the Long Stay: free for up to 2 hours, with a shuttle to both terminals.",
+      "exemptions": "Blue Badge holders are exempt from the drop-off charge, but must register with Times24 before travelling."
     },
     {
       "airport": "London Stansted",
@@ -82,15 +128,15 @@
       "fee_gbp": 10.0,
       "free_minutes": 15,
       "window_note": "Express Set Down: £10 for up to 15 minutes",
-      "overstay": "£28 beyond 15 minutes; 30-minute maximum stay, then Parking Charge and enforcement",
+      "overstay": "£28 for over 15 minutes; 30-minute maximum stay",
       "payment": "Pay by 23:59 the day after your visit",
       "free_alternative": {
         "exists": true,
         "name": "Mid Stay car park",
-        "detail": "Free period with transfer to terminal",
+        "detail": "First 60 minutes free — pick-up or drop-off — with a free shuttle taking about 7 minutes",
         "transfer": "shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.stanstedairport.com",
       "official_check": "https://www.stanstedairport.com/terms-and-conditions/express-set-down/",
@@ -104,7 +150,15 @@
       "rail": "Stansted Airport station is directly beneath the terminal, a two-minute step-free walk, on the Stansted Express to London Liverpool Street",
       "rail_source": "https://www.stanstedairport.com/getting-to-and-from/stansted-airport-train-station/",
       "fact": "Stansted opened in 1943 as a wartime base for the US Army Air Force and was even briefly renamed “George Washington Field”. Its present terminal, designed by Sir Norman Foster, was opened by Queen Elizabeth II in 1991.",
-      "fact_source": "https://mediacentre.stanstedairport.com/blog-stansted-through-time--a-look-back-at-our-history/"
+      "fact_source": "https://mediacentre.stanstedairport.com/blog-stansted-through-time--a-look-back-at-our-history/",
+      "dropoff_location": "Express Set Down is on the forecourt directly outside the terminal — barrier-free ANPR, and signed drop-off only. Vehicles must not be left unattended (they can be towed, with a towing fee), and re-entering within 30 minutes of first entry brings a £28 charge.",
+      "pay_methods": "Online at pay.stanstedairport.com, by automated phone on 03450 175046, or automatically with an autopay account — no cash and no on-site machines",
+      "pay_deadline": "by midnight the day after your visit",
+      "pay_penalty": "Non-payment brings a £100 Parking Charge Notice, reduced to £60 if paid within 14 days.",
+      "pay_url": "https://pay.stanstedairport.com",
+      "pay_note": "There are no barriers or machines at Express Set Down — cameras log your plate and you pay afterwards.",
+      "pickup_note": "The Express Set Down is drop-off only — for pick-ups, Stansted's own free option is the Mid Stay car park: the first 60 minutes are free for pick-up or drop-off, the second hour is £5, and the free shuttle takes about 7 minutes to the terminal. One catch — re-entering Mid Stay within an hour brings a £48 charge. Prefer to walk in and meet your passenger? The Green and Blue Short Stay car parks beside the terminal are pick-up-or-drop-off only, from £13 for up to 30 minutes.",
+      "exemptions": "Blue Badge travellers get an extension to the 30-minute maximum stay, though the charge itself still applies. Airport-operational, emergency and military vehicles are exempt."
     },
     {
       "airport": "London Luton",
@@ -114,14 +168,14 @@
       "free_minutes": 10,
       "window_note": "£7 for up to 10 minutes",
       "overstay": "£1 per minute beyond 10 minutes",
-      "payment": "Barrier / online",
+      "payment": "Online only at lutondropoff.apcoa.com by midnight the following day — no barriers or machines at the zone",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay car park",
         "detail": "2 hours free, bus to terminal",
         "transfer": "bus"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.london-luton.co.uk",
       "official_check": "https://www.london-luton.co.uk",
@@ -135,7 +189,15 @@
       "rail": "Luton Airport Parkway connects to the terminal by the Luton DART people mover in under four minutes, with the Luton Airport Express reaching London St Pancras in about 22 minutes",
       "rail_source": "https://www.london-luton.co.uk/to-and-from-lla/trains/luton-dart",
       "fact": "Luton was the cradle of the British package holiday — by 1969 a fifth of all UK holiday flights departed from here. A 1970s Campari TV advert gave Lorraine Chase the punchline “Nah, Luton Airport”, which inspired a 1979 hit single of the same name.",
-      "fact_source": "https://en.wikipedia.org/wiki/Luton_Airport"
+      "fact_source": "https://en.wikipedia.org/wiki/Luton_Airport",
+      "dropoff_location": "Luton's Drop Off Zone is not outside the terminal doors — it's a signed area about a 5-minute walk away. Use postcode LU2 9QT, then follow the road signs (not your sat-nav) from the roundabout before the tunnel.",
+      "pay_methods": "Online only, at lutondropoff.apcoa.com — pay by card on the website after your visit, or set up an account for automatic payment",
+      "pay_deadline": "by midnight the following day",
+      "pay_penalty": "Staying beyond the 30-minute maximum brings a £95 enforcement charge, reduced to £55 if paid within 14 days; the zone is enforced by ANPR and mobile CCTV.",
+      "pay_url": "https://lutondropoff.apcoa.com",
+      "pay_note": "There are no barriers, pay machines or card readers at the zone itself — ANPR cameras read your plate and you pay online afterwards.",
+      "pickup_note": "Unusually for a big UK airport, Luton's Drop Off Zone is signed for pick-ups as well — the same £7 for 10 minutes applies, and it has two entrances to spread the queues. If the flight hasn't landed, wait in the Long Stay car park instead: free for up to 2 hours, with a free shuttle every 20 minutes taking about 10 minutes to the terminal.",
+      "exemptions": "There's no Blue Badge exemption in the Drop Off Zone itself — Blue Badge holders are directed to Terminal Car Park 1, which gives 30 minutes free and discounted rates after that."
     },
     {
       "airport": "London City",
@@ -145,17 +207,17 @@
       "free_minutes": 5,
       "window_note": "£8 for up to 5 minutes — highest per-minute rate in the UK (£1.60/min)",
       "overstay": "£1 per minute beyond 5 minutes; maximum stay 10 minutes",
-      "payment": "Barrier / online",
+      "payment": "Barrierless ANPR — pay online at dropoff.londoncityairport.com by midnight the following day",
       "free_alternative": {
         "exists": false,
         "name": null,
         "detail": "No free drop-off; DLR is the practical alternative",
         "transfer": null
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.londoncityairport.com",
-      "official_check": "https://www.londoncityairport.com",
+      "official_check": "https://dropoff.londoncityairport.com",
       "previous_fee_gbp": 6.0,
       "previous_fee_year": 2025,
       "lat": 51.5048,
@@ -166,7 +228,17 @@
       "rail": "London City Airport has its own DLR station at the terminal, with lifts from the platforms straight up to the building",
       "rail_source": "https://www.londoncityairport.com/faqs/getting-to-and-from-the-airport",
       "fact": "London City was the world's first major airport to have its air traffic controlled entirely from a remote digital tower — since 2021, cameras on a 50-metre mast have streamed a 360° view of the airfield to controllers sitting 115 km away in Hampshire.",
-      "fact_source": "https://www.nats.aero/news/london-city-is-first-major-airport-controlled-by-remote-digital-tower/"
+      "fact_source": "https://www.nats.aero/news/london-city-is-first-major-airport-controlled-by-remote-digital-tower/",
+      "dropoff_location": "The drop-off zone is on the forecourt directly outside the terminal — barrierless ANPR, cameras log your plate, and the maximum stay is 10 minutes.",
+      "pay_type": "postpay",
+      "pay_methods": "Online at dropoff.londoncityairport.com (run by APCOA for the airport), or register an account for automatic payment",
+      "pay_deadline": "by midnight the day after your visit",
+      "pay_penalty": "Non-payment or exceeding the 10-minute maximum brings a £100 Parking Charge Notice, reduced to £60 if paid within 14 days.",
+      "pay_url": "https://dropoff.londoncityairport.com",
+      "pay_note": "No barriers and nothing to pay on site — cameras read your plate and you pay online afterwards. Black cabs are different: since April 2026 a £6 drop-off extra goes on the taxi meter instead.",
+      "pickup_note": "The £8 charge and 10-minute maximum apply to the forecourt zone, and an overstay means a Parking Charge Notice — so for collections where you might wait, use the Short Stay car park rather than gambling on the 10 minutes.",
+      "exemptions": "Blue Badge holders get a 100% discount, but only by registering on the payment portal: upload photos of the front and back of the badge and allow up to 5 working days for approval (pay the normal charge if you travel before it comes through). Even once approved, you must log in and process each visit yourself — unless you set up AutoPay, which applies the concession automatically until the badge expires.",
+      "note": "The charge is new: London City introduced it on 6 January 2026 — it was free to drop off before."
     },
     {
       "airport": "Manchester",
@@ -176,17 +248,17 @@
       "free_minutes": 5,
       "window_note": "£5.50 for up to 5 minutes",
       "overstay": "£6.50 for up to 10 minutes; £25 for up to 30 minutes",
-      "payment": "Pay by midnight the next day",
+      "payment": "Barrierless ANPR — pay online or by phone by midnight the following day",
       "free_alternative": {
         "exists": true,
-        "name": "Free drop-off area",
-        "detail": "Free, with 24-hour shuttle to terminals",
+        "name": "JetParks 1 free drop-off area",
+        "detail": "Free drop-off at JetParks 1 (M90 5AZ) — one-way shuttle to the terminals, about 6 minutes, running 24/7 with marshals on hand",
         "transfer": "shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.manchesterairport.co.uk",
-      "official_check": "https://www.manchesterairport.co.uk",
+      "official_check": "https://www.manchesterairport.co.uk/parking/pick-up-and-drop-off/",
       "previous_fee_gbp": 5.0,
       "previous_fee_year": 2025,
       "note": "£100 charge for attempting to pick up passengers in the Drop Off zone — pick-ups must use the official pick-up areas",
@@ -198,7 +270,27 @@
       "rail": "Manchester Airport station links to all terminals by covered walkways (a 5–15 minute walk), with direct trains to Manchester Piccadilly in about 20 minutes",
       "rail_source": "https://www.manchesterairport.co.uk/getting-to-and-from/by-train/",
       "fact": "Manchester opened on 25 June 1938 as “Ringway” and is still the only UK airport outside London with two full-length runways. It carried just 7,600 passengers in its first fourteen months — today it handles more than that in a few hours.",
-      "fact_source": "https://www.manchesterairport.co.uk/about-us/manchester-airport-and-mag/history/"
+      "fact_source": "https://www.manchesterairport.co.uk/about-us/manchester-airport-and-mag/history/",
+      "dropoff_location": "Each terminal has its own signed Drop Off zone on the forecourt, and both are barrier-free ANPR — cameras read your plate, there's nothing to pay on site. Terminal 1 has closed, so all drop-offs use Terminal 2 or Terminal 3.",
+      "terminals": [
+        {
+          "name": "Terminal 2",
+          "note": "Off the Flag Island roundabout (M90 5PH) — upper forecourt beside check-in, lower forecourt at Arrivals level with a 2.0m height limit"
+        },
+        {
+          "name": "Terminal 3",
+          "note": "Terminal forecourt, M90 1NN"
+        }
+      ],
+      "terminals_note": "The same tariff applies at both terminals: £5.50 for 5 minutes, £6.50 for 10, £25 for up to 30 (30-minute maximum).",
+      "pay_type": "postpay",
+      "pay_methods": "Online at pay.manchesterairport.co.uk or by automated phone on 03459 013318 — no cash or cheques",
+      "pay_deadline": "by midnight the following day",
+      "pay_penalty": "Non-payment brings a £100 Parking Charge Notice, reduced to £60 if paid within 14 days.",
+      "pay_url": "https://pay.manchesterairport.co.uk",
+      "pay_note": "There are no barriers at the forecourts — ANPR logs your visit and you pay afterwards online or by phone.",
+      "pickup_note": "Never try to collect passengers in the Drop Off zones — Manchester charges £100 for attempting it. Official pick-up is in the multi-storeys: Multi Storey T2 West (M90 5PR) at £6.60 for up to 15 minutes, with the equivalent multi-storey pick-up at Terminal 3. And don't plan to wait at the free JetParks 1 area for an arrival — it's a drop-off facility, and its free shuttle runs one way only, from the car park to the terminals.",
+      "exemptions": "Blue Badge holders can use the forecourt Drop Off areas free of charge — for dropping off only, not pick-ups."
     },
     {
       "airport": "Birmingham",
@@ -208,17 +300,17 @@
       "free_minutes": 15,
       "window_note": "Premium Set Down outside the terminal from £7; free off-site Drop Off car park (10-minute limit)",
       "overstay": "Escalating charges",
-      "payment": "Barrier",
+      "payment": "Barrierless ANPR — pay within 24 hours of exit (online Post Pay, on-site machines, or AutoPay)",
       "free_alternative": {
         "exists": true,
         "name": "Standard Drop Off car park",
         "detail": "10 minutes free, short walk to terminal",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.birminghamairport.co.uk",
-      "official_check": "https://www.birminghamairport.co.uk",
+      "official_check": "https://www.birminghamairport.co.uk/parking/drop-off-and-pick-up/",
       "note": "One of the few majors with a free, walkable drop-off option",
       "lat": 52.4539,
       "lon": -1.748,
@@ -228,7 +320,15 @@
       "rail": "Birmingham International station connects to the terminal by the free Air-Rail Link people mover, which takes about 90 seconds",
       "rail_source": "https://www.birminghamairport.co.uk/transport-links/by-train/",
       "fact": "Birmingham Airport opened the world's first commercial maglev in August 1984 — a 600-metre shuttle that hovered 15mm above its track and floated passengers to the railway station in 90 seconds. Its elevated guideway is still used by today's Air-Rail Link.",
-      "fact_source": "https://en.wikipedia.org/wiki/Birmingham_Maglev"
+      "fact_source": "https://en.wikipedia.org/wiki/Birmingham_Maglev",
+      "dropoff_location": "Premium Set Down is right outside the terminal — about a one-minute walk to the doors — and has been barrier-free ANPR since March 2025. The free Drop Off car park is a separate site, a 5–10-minute walk to the terminal via a covered walkway (or the free inter-car-park bus), with a no-return-within-one-hour rule.",
+      "pay_type": "postpay",
+      "pay_methods": "Online via Post Pay, at the on-site payment machines, or automatically with a pre-registered AutoPay account",
+      "pay_deadline": "within 24 hours of exit",
+      "pay_penalty": "Miss the 24-hour window and a Parking Notice is issued — £100 within 28 days, reduced to £50 if paid within 14 days.",
+      "pay_note": "Both the Premium Set Down and the Drop Off car park went barrierless in March 2025 — ANPR reads your plate; unusually, Birmingham does still keep on-site payment machines alongside online Post Pay.",
+      "pickup_note": "For pick-ups Birmingham points drivers to Car Park 5, a 5–10-minute walk from the terminal, with tariffs from £12 for up to an hour. The free Drop Off car park is signed for drop-offs — for collections, Car Park 5 is the airport's recommendation.",
+      "machines_onsite": true
     },
     {
       "airport": "Edinburgh",
@@ -238,17 +338,17 @@
       "free_minutes": 10,
       "window_note": "£8.50 for up to 10 minutes",
       "overstay": "£1 per minute beyond 10 minutes",
-      "payment": "Barrier / online",
+      "payment": "Pay by card at the exit barrier (cashless since July 2025)",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay free zone",
         "detail": "30 minutes free in the Long Stay car park — no shuttle bus, a signposted 10-minute walk to the terminal",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.edinburghairport.com",
-      "official_check": "https://www.edinburghairport.com",
+      "official_check": "https://www.edinburghairport.com/transport-links/pickup-and-dropoff-zones",
       "previous_fee_gbp": 5.0,
       "previous_fee_year": 2024,
       "lat": 55.95,
@@ -259,7 +359,15 @@
       "rail": "an Edinburgh Trams stop sits right outside the terminal (a tram, not heavy rail), running to the city centre and connecting to mainline trains at Edinburgh Gateway",
       "rail_source": "https://www.edinburghairport.com/transport-links/trams",
       "fact": "Edinburgh Airport is older than the Royal Air Force itself — it opened in 1916 as Turnhouse Aerodrome, a First World War military airfield, two years before the RAF was founded.",
-      "fact_source": "https://corporate.edinburghairport.com/about-us/edinburgh-airport-history"
+      "fact_source": "https://corporate.edinburghairport.com/about-us/edinburgh-airport-history",
+      "dropoff_location": "The charged Pickup & Dropoff zone is on the ground floor of the terminal multi-storey, directly at the terminal — follow the Pickup & Dropoff signs on the approach.",
+      "pay_type": "barrier",
+      "pay_methods": "Card at the barrier machines on exit — Edinburgh's car parks went fully cashless in July 2025",
+      "pay_deadline": "at the barrier machines as you leave",
+      "pay_penalty": "You pay before you leave, so there's no deadline to miss — overstays simply climb the tariff at £1 per minute after the first 10.",
+      "pay_note": "Pay by card at the machines at the exit barrier — no cash, and nothing to settle online afterwards.",
+      "pickup_note": "The same zone is signed for pick-ups and drop-offs at the same £8.50 tariff. For a free collection, Edinburgh's own alternative is the Long Stay: 30 minutes free, then £14 up to an hour, with a signposted 10-minute walk to the terminal — there's no shuttle.",
+      "exemptions": "Vehicles carrying a Blue Badge holder get free access to the car parks for one hour — press the intercom at the exit barrier and quote your 16-character code."
     },
     {
       "airport": "Bristol",
@@ -276,10 +384,10 @@
         "detail": "60 minutes free, bus to terminal",
         "transfer": "bus"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.bristolairport.co.uk",
-      "official_check": "https://www.bristolairport.co.uk",
+      "official_check": "https://www.bristolairport.co.uk/to-and-from-the-airport/drop-off-and-pick-up/",
       "previous_fee_gbp": 6.0,
       "previous_fee_year": 2024,
       "lat": 51.3827,
@@ -287,7 +395,9 @@
       "colour": "Bristol's paid Drop & Go is on the Transport Interchange close to the terminal, while the free 60-minute Waiting Zone is over by the Car Rental Centre and isn't walkable — it relies on a frequent shuttle bus.",
       "colour_source": "https://www.bristolairport.co.uk/parking/drop-off-and-pick-up/",
       "fact": "Bristol's original airport at Whitchurch opened in 1930 as only the third civil airport in the country, on farmland paid for largely by public fundraising. Operations moved to the current hilltop site in 1957, after the city bought the former RAF airfield for £55,000.",
-      "fact_source": "https://www.bristolairport.co.uk/corporate/about-us/our-history/"
+      "fact_source": "https://www.bristolairport.co.uk/corporate/about-us/our-history/",
+      "dropoff_location": "Drop & Go is at the rear of the Transport Interchange, a 3–5-minute walk to the terminal across the covered bridge, with a 2.5m height limit (taller vehicles use the Minibus/Over Height car park). A dedicated Blue Badge drop-off point sits about 13 metres from the Interchange entrance.",
+      "pickup_note": "Drop & Go is signed for quick collections as well as drop-offs, from £8.50 for 10 minutes. If you're early, the Waiting Zone near the Car Rental Centre gives up to an hour free — with toilets, and a frequent bus to the Interchange — and don't stop on the approach roads: Red Route rules carry a £100 enforcement charge, reduced to £60 within 14 days."
     },
     {
       "airport": "Glasgow",
@@ -297,23 +407,31 @@
       "free_minutes": 15,
       "window_note": "£7 for up to 15 minutes",
       "overstay": "£1 per additional minute; £50 beyond 30 minutes",
-      "payment": "Barrier / online",
+      "payment": "Pay at the exit barrier — card or contactless only",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay car park",
         "detail": "1 hour free, walk or shuttle to terminal",
         "transfer": "walk/shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.glasgowairport.com",
-      "official_check": "https://www.glasgowairport.com",
+      "official_check": "https://www.glasgowairport.com/to-and-from/pick-up-and-drop-off/",
       "lat": 55.869,
       "lon": -4.435,
       "colour": "Glasgow's paid express drop-off is inside the terminal multi-storey right outside the building — the airport itself calls it “a very congested area” suited only to a quick stop; the free hour is over in Long Stay, reached on foot or by free shuttle.",
       "colour_source": "https://www.glasgowairport.com/to-and-from/pick-up-and-drop-off/",
       "fact": "Glasgow Airport opened on 2 May 1966 on the site of a former Royal Navy air station, HMS Sanderling, with a terminal designed by Sir Basil Spence — the celebrated architect of Coventry Cathedral.",
-      "fact_source": "https://www.glasgowlife.org.uk/libraries/family-history/stories-and-blogs-from-the-mitchell/times-past-blogs/glasgow-airport-times-past"
+      "fact_source": "https://www.glasgowlife.org.uk/libraries/family-history/stories-and-blogs-from-the-mitchell/times-past-blogs/glasgow-airport-times-past",
+      "dropoff_location": "The express drop-off/pick-up area is on the ground level of the terminal multi-storey, directly outside the main terminal building — a busy area built for quick stops.",
+      "pay_type": "barrier",
+      "pay_methods": "Card or contactless at the exit barrier — no cash, and no extra fee for paying by card",
+      "pay_deadline": "at the exit barrier as you leave",
+      "pay_penalty": "There's no post-pay to forget — you pay before the barrier lifts. Stay past 30 minutes, though, and the charge is £50.",
+      "pay_note": "Payment is taken at the forecourt exit barrier by card or contactless — nothing to remember afterwards.",
+      "pickup_note": "Pick-ups use the same express area at the same £7 tariff, or meet arriving passengers in the Terminal Multi Storey a few minutes from the doors. Waiting on a delayed flight? The Long Stay is free for up to an hour, and you can hop on the free shuttle bus across.",
+      "exemptions": "Blue Badge holders get 30 minutes' free drop-off and pick-up in the Terminal Multi Storey (rather than the express area)."
     },
     {
       "airport": "Aberdeen",
@@ -323,23 +441,31 @@
       "free_minutes": 15,
       "window_note": "£7 for up to 15 minutes",
       "overstay": "£1 per minute beyond 15 minutes; £50 flat charge after 30 minutes",
-      "payment": "Barrier / online",
+      "payment": "Pay by card or contactless at the exit barrier",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay car park",
         "detail": "1 hour free, shuttle to terminal",
         "transfer": "shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.aberdeenairport.com",
-      "official_check": "https://www.aberdeenairport.com",
+      "official_check": "https://www.aberdeenairport.com/transport-and-directions/dropping-off-at-aberdeen-airport/",
       "lat": 57.2019,
       "lon": -2.1978,
       "colour": "Aberdeen's express drop-off is on the upper forecourt right outside the doors, which the airport flags as a potentially very congested area; the free hour is in Long Stay with a free shuttle bus.",
       "colour_source": "https://www.aberdeenairport.com/transport-and-directions/dropping-off-at-aberdeen-airport/",
       "fact": "Thanks to North Sea oil and gas, Aberdeen is widely described as the world's busiest commercial heliport — at its height flying more than 500,000 helicopter passengers a year between the mainland and offshore platforms.",
-      "fact_source": "https://mediacentre.heathrow.com/pressrelease/detail/4330"
+      "fact_source": "https://mediacentre.heathrow.com/pressrelease/detail/4330",
+      "dropoff_location": "The Express Drop-off areas are directly outside the main terminal building on the upper forecourt.",
+      "pay_type": "barrier",
+      "pay_methods": "Credit/debit card or contactless at the forecourt exit barrier",
+      "pay_deadline": "at the exit barrier as you leave",
+      "pay_penalty": "You pay before leaving, so there's no deadline to miss — £1 per minute after the first 15, then a £50 flat charge past 30 minutes.",
+      "pay_note": "Payment is taken at the exit barrier by card or contactless — nothing to settle online afterwards.",
+      "pickup_note": "The same Express zone handles quick pick-ups at the same £7 tariff — but the airport's own cheaper suggestion is the Long Stay: free for up to an hour, where you can wait for your passenger or ride the free shuttle to the terminal to meet them.",
+      "exemptions": "Blue Badge holders shouldn't use the Express Drop Off at all — they get a 30-minute free drop-off and pick-up window in the Short Stay car park instead."
     },
     {
       "airport": "Leeds Bradford",
@@ -349,23 +475,31 @@
       "free_minutes": 10,
       "window_note": "£8 for up to 10 minutes in the Pick Up & Drop Off car park, 1-minute walk from the terminal",
       "overstay": "Escalating charges",
-      "payment": "Barrier / online",
+      "payment": "Cashless — pay at the barrier on exit",
       "free_alternative": {
         "exists": true,
-        "name": "One Hour Free zone",
-        "detail": "1 hour free, transfer to terminal",
-        "transfer": "shuttle"
+        "name": "One Hour Free Zone",
+        "detail": "Up to 1 hour free, a 3–4-minute uphill walk to the terminal via the Mid Stay walkway — £68 minimum charge if you re-enter within an hour",
+        "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.leedsbradfordairport.co.uk",
-      "official_check": "https://www.leedsbradfordairport.co.uk",
+      "official_check": "https://www.leedsbradfordairport.co.uk/at-the-airport/facilities/one-hour-free-zone",
       "lat": 53.867,
       "lon": -1.6612,
       "colour": "The One Hour Free zone is a 3–4 minute uphill walk from the terminal, signed from Whitehouse Lane, with the final approach on foot through the Mid Stay car park.",
       "colour_source": "https://www.leedsbradfordairport.co.uk/at-the-airport/facilities/one-hour-free-zone",
       "fact": "At 681 feet above sea level, Leeds Bradford is England's highest airport. When the first chartered Concorde touched down here in 1986, around 70,000 people turned out to watch.",
-      "fact_source": "https://www.leedsbradfordairport.co.uk/about-leeds-bradford-airport"
+      "fact_source": "https://www.leedsbradfordairport.co.uk/about-leeds-bradford-airport",
+      "dropoff_location": "The Pick Up & Drop Off car park is the closest to the doors — a one-minute walk to the terminal — and is cashless, with payment at the barrier on exit.",
+      "pay_type": "barrier",
+      "pay_methods": "Cashless — pay by card at the barrier on exit",
+      "pay_deadline": "at the barrier as you leave",
+      "pay_penalty": "You pay before leaving; longer stays climb the tariff instead of triggering a fine.",
+      "pay_note": "Cashless pay-at-barrier — no tickets to validate and nothing to pay online afterwards.",
+      "pickup_note": "Pick-ups share the same Pick Up & Drop Off car park a minute from the doors. For a free wait, the One Hour Free Zone (LS19 7UE) gives an hour, a 3–4-minute walk to the terminal on an incline via the Mid Stay walkway — but don't leave and come back: re-entering within an hour carries a minimum £68 charge.",
+      "exemptions": "Dedicated Blue Badge areas are available across all the car parks."
     },
     {
       "airport": "Newcastle",
@@ -375,76 +509,101 @@
       "free_minutes": 10,
       "window_note": "£6 for up to 10 minutes in the Express Car Park at the terminal",
       "overstay": "£12 for up to 30 minutes",
-      "payment": "Barrier / online",
+      "payment": "Ticketless — cameras log your stay and you pay by card on exit",
       "free_alternative": {
         "exists": true,
         "name": "Callerton Parkway",
         "detail": "90 minutes free, shuttle/Metro to terminal",
         "transfer": "shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.newcastleairport.com",
-      "official_check": "https://www.newcastleairport.com",
+      "official_check": "https://www.newcastleairport.com/car-parking/car-parking-options/",
       "lat": 55.0375,
       "lon": -1.6917,
       "colour": "The free Callerton Parkway waiting zone is a short drive out, linked to the terminal by a free round-the-clock shuttle on a fixed timetable — and it has its own Metro stop, one before the terminal.",
       "colour_source": "https://www.newcastleairport.com/car-parking/airport-waiting-zone",
       "fact": "When Newcastle Airport opened in July 1935 it had a single grass strip, and its “runway lights” were oil drums stuffed with burning rags — passengers were weighed along with their luggage before climbing aboard by stepladder.",
-      "fact_source": "https://ncl90.com/"
+      "fact_source": "https://ncl90.com/",
+      "dropoff_location": "The Express Pick Up & Drop Off car park is immediately outside the terminal, for vehicles up to 7 seats. It's ticketless — cameras record entry and exit, and the tariff is requested when you leave.",
+      "pay_type": "barrier",
+      "pay_methods": "Card on exit — the camera system works out your stay and requests the tariff as you leave (card-only since March 2026)",
+      "pay_deadline": "on exit",
+      "pay_penalty": "You pay as you leave, so there's nothing to settle later — longer stays climb the tariff instead: £12 up to 30 minutes, £16 up to 45, £20 up to an hour.",
+      "pay_note": "Ticketless cameras log your visit and you pay on exit. Newcastle stopped taking cash in March 2026 — card only.",
+      "pickup_note": "Pick-up and drop-off share the same Express car park and tariff — £6 for up to 10 minutes. Meeting a flight you might wait on? The airport's Waiting Zone at Callerton Parkway (NE13 8DN), beside the Metro station, gives up to 90 minutes free with a shuttle running from 3am until after the last arrival."
     },
     {
       "airport": "Liverpool John Lennon",
       "iata": "LPL",
       "region": "North West",
-      "fee_gbp": 6.0,
+      "fee_gbp": 7.0,
       "free_minutes": 10,
-      "window_note": "£6 for up to 10 minutes at the Express Drop-off and Pick-up area next to the terminal",
-      "overstay": "£10 for 10–20 minutes; £25 for 20–60 minutes",
-      "payment": "Barrier / online",
+      "window_note": "£7 for up to 10 minutes at the Express Drop-off and Pick-up area next to the terminal (gate rate)",
+      "overstay": "£10 up to 20 minutes; £25 up to 1 hour; £50 up to 24 hours",
+      "payment": "Pay by card at the exit barriers (card only)",
       "free_alternative": {
         "exists": true,
         "name": "Drop-Off 2",
         "detail": "20 minutes free at Drop-off 2, about a 7-minute walk from the terminal",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-09-05",
       "verification": "official",
       "source": "https://www.liverpoolairport.com",
-      "official_check": "https://www.liverpoolairport.com",
-      "note": "Unchanged in 2026",
+      "official_check": "https://www.liverpoolairport.com/parking/express-drop-off",
       "lat": 53.3341,
       "lon": -2.8497,
       "colour": "Liverpool's free Drop-off 2 is about a seven-minute walk from the terminal. Worth knowing: once you leave it you can't re-enter free for two hours — a second entry inside that window costs at least £9.",
       "colour_source": "https://lennon.liverpoolairport.com/parking/picking-up-and-dropping-off-1",
       "fact": "The airport's original 1937 Art Deco terminal and control tower at Speke are Grade II* listed — described by Historic England as the most complete surviving ensemble in England from the pioneer age of international air travel. The old terminal is now a hotel.",
-      "fact_source": "https://historicengland.org.uk/listing/the-list/list-entry/1217911"
+      "fact_source": "https://historicengland.org.uk/listing/the-list/list-entry/1217911",
+      "dropoff_location": "The Express Drop-off and Pick-up area is directly opposite the terminal — the closest set-down point — with pay-on-exit barriers (usually four lanes). Free Drop Off 2 is 400m away, a 7–8-minute walk to the doors.",
+      "pay_type": "barrier",
+      "pay_methods": "Card at the pay-on-exit barriers — the Express barriers are card-payment only",
+      "pay_deadline": "at the exit barrier as you leave",
+      "pay_penalty": "You pay before leaving, so there's no deadline to miss — longer stays climb the tariff: £10 up to 20 minutes, £25 up to an hour. Motorcycles park free in the designated outdoor spaces.",
+      "pay_note": "Pay-on-exit barriers, card only — no cash and nothing to pay online afterwards. The posted tariff is the gate rate for non-booked visits; Liverpool also sells pre-booked Express parking.",
+      "pickup_note": "The Express area is signed for pick-ups and drop-offs alike, at the same £7-for-10-minutes gate rate. Meeting a delayed flight? Drop Off 2 gives 20 minutes free, 400m from the terminal, with £8 covering up to an hour — and mind the double-red-line Red Route on the approach, where stopping is a parking offence.",
+      "exemptions": "Travelling passengers with a valid Blue Badge can reclaim up to 40 minutes' parking in the Express area — email parking@liverpoolairport.com with your badge, travel documents, registration and proof of payment (stays under 40 minutes only).",
+      "previous_fee_gbp": 5.0,
+      "previous_fee_year": 2025
     },
     {
       "airport": "East Midlands",
       "iata": "EMA",
       "region": "Midlands",
-      "fee_gbp": 6.0,
-      "free_minutes": 30,
-      "window_note": "£6 for up to 30 minutes — the most generous major-airport window; free for Blue Badge holders (Short Stay 1)",
-      "overstay": "Higher tariffs apply beyond 30 minutes",
-      "payment": "Pay by midnight the next day",
+      "fee_gbp": 5.0,
+      "free_minutes": 15,
+      "window_note": "Rapid Drop Off: £5 for up to 15 minutes",
+      "overstay": "£1 per minute beyond 15 minutes; 30-minute maximum stay",
+      "payment": "Barrierless — pay online or by phone by 23:59 the day after your visit",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay 2",
         "detail": "60 minutes free, walk or shuttle",
         "transfer": "walk/shuttle"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.eastmidlandsairport.com",
-      "official_check": "https://www.eastmidlandsairport.com",
+      "official_check": "https://www.eastmidlandsairport.com/parking/pick-up-and-drop-off/",
       "lat": 52.8306,
       "lon": -1.3279,
       "colour": "East Midlands' Rapid Drop-Off is fully barrierless — you drive straight through and pay online by midnight the next day; the walkable Short Stay 1 has no shuttle, it's on foot only.",
       "colour_source": "https://www.eastmidlandsairport.com/parking/pick-up-and-drop-off/",
       "fact": "East Midlands is the UK's foremost hub for express air freight — its dedicated cargo jets fly round the clock, handling a record 413,664 tonnes in the year to March 2026.",
-      "fact_source": "https://mediacentre.eastmidlandsairport.com/record-breaking-year-for-cargo-growth-at-east-midlands-airport/"
+      "fact_source": "https://mediacentre.eastmidlandsairport.com/record-breaking-year-for-cargo-growth-at-east-midlands-airport/",
+      "dropoff_location": "The Rapid Drop Off lanes are directly outside the terminal and fully barrierless — and signed for drop-off only. You drive through without stopping, cameras read your plate, and you pay afterwards.",
+      "pay_type": "postpay",
+      "pay_methods": "Online at pay.eastmidlandsairport.com, by automated phone on 03452 221517, or automatically with Autopay",
+      "pay_deadline": "by 23:59 the day after your visit",
+      "pay_penalty": "Breaches bring a Parking Charge of up to £100, reduced to £60 if paid within 14 days, plus a debt-recovery fee of up to £70.",
+      "pay_url": "https://pay.eastmidlandsairport.com",
+      "pay_note": "Fully barrierless — there's nothing to stop for and no machines in the lanes; cameras log your plate and you pay afterwards.",
+      "pickup_note": "The Rapid Drop Off is drop-off only — don't use it to collect. For pick-ups, East Midlands points drivers to Short Stay 1 at £6 for up to 30 minutes (also where Blue Badge holders get 30 minutes free), or wait out a delay in Long Stay 2's free hour with a walk or shuttle across.",
+      "exemptions": "Blue Badge holders park free for up to 30 minutes in Short Stay 1 — normal charges apply in the Rapid Drop Off lanes themselves."
     },
     {
       "airport": "Belfast International",
@@ -454,23 +613,33 @@
       "free_minutes": 10,
       "window_note": "£5 for up to 10 minutes",
       "overstay": "£8 for 10–20 minutes; £13 for 20–60 minutes",
-      "payment": "Barrier",
+      "payment": "Coins or card at the machine on exit",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay car park",
-        "detail": "15 minutes free",
+        "detail": "15 minutes free for dropping off and collecting, behind the Maldron Hotel",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.belfastairport.com",
-      "official_check": "https://www.belfastairport.com",
+      "official_check": "https://www.belfastairport.com/car-parking/parking-options",
       "lat": 54.6575,
       "lon": -6.2158,
       "colour": "Belfast International's paid drop-off is directly adjacent to the terminal building, with a height restriction on the entry barrier.",
       "colour_source": "https://www.belfastairport.com/car-parking/drop-off-zone",
       "fact": "The Aldergrove site was chosen in 1917 as a Royal Flying Corps training base — and its first civil air traffic, in 1922, was not passengers but newspapers flown in from Chester.",
-      "fact_source": "https://en.wikipedia.org/wiki/Belfast_International_Airport"
+      "fact_source": "https://en.wikipedia.org/wiki/Belfast_International_Airport",
+      "dropoff_location": "The Drop Off zone is directly adjacent to the terminal building. Cars must not be left unattended at any time, and there are height restrictions on entry.",
+      "pay_type": "barrier",
+      "pay_methods": "Coins or card at the machine on exit — one of the few UK drop-off zones still taking cash",
+      "pay_deadline": "at the machine on exit",
+      "pay_penalty": "Overstaying the 10-minute slot brings penalty charges of up to £60.",
+      "pay_note": "Pay at the coin/card machine as you leave — nothing to settle online.",
+      "pickup_note": "For collections, Belfast International's own recommendation is the Long Stay car park behind the Maldron Hotel: 15 minutes free for picking up and dropping off alike. Blue Badge holders get 30 minutes free in the Short Stay — press the help button at the exit barrier.",
+      "exemptions": "Blue Badge holders get 30 minutes free in the Short Stay car park for drop-offs and collections — validate at the office or via the help button at the exit barrier (a minimum £3 applies beyond 30 minutes).",
+      "previous_fee_gbp": 3.0,
+      "previous_fee_year": 2025
     },
     {
       "airport": "Belfast City",
@@ -480,23 +649,31 @@
       "free_minutes": 10,
       "window_note": "£4 for up to 10 minutes",
       "overstay": "£6 for 10–20 minutes",
-      "payment": "Barrier",
+      "payment": "ANPR ticketless — contactless card or digital wallet at exit",
       "free_alternative": {
         "exists": true,
         "name": "Long Stay car park",
-        "detail": "10 minutes free, walkable",
+        "detail": "10 minutes free (take a ticket), then £7 up to an hour — a short walk to the terminal",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.belfastcityairport.com",
-      "official_check": "https://www.belfastcityairport.com",
+      "official_check": "https://www.belfastcityairport.com/Parking/Drop-Off-and-Pick-Up",
       "lat": 54.6181,
       "lon": -5.8725,
       "colour": "Belfast City calls its Express drop-off “less than three minutes from the terminal,” and it's the only place you may stop — no-stopping zones elsewhere on site are camera-enforced by Vehicle Control Services.",
       "colour_source": "https://www.belfastcityairport.com/passenger-information/car-parking/drop-off-and-pick-up",
       "fact": "The airport was renamed George Best Belfast City Airport on 22 May 2006 — deliberately chosen because it would have been the footballer's 60th birthday — with his father Dickie unveiling the name before guests including Sir Alex Ferguson.",
-      "fact_source": "https://www.irishexaminer.com/news/arid-30259865.html"
+      "fact_source": "https://www.irishexaminer.com/news/arid-30259865.html",
+      "dropoff_location": "The Express Drop Off and Pick Up area is less than three minutes from the terminal — ANPR ticketless: cameras read your plate on entry and payment is taken at exit.",
+      "pay_type": "barrier",
+      "pay_methods": "Contactless bank card or digital wallet (Apple Pay / Google Pay) at exit",
+      "pay_deadline": "at the exit — the ANPR system takes payment as you leave",
+      "pay_penalty": "You pay on exit, so there's nothing to settle later; longer stays climb the tariff (£6 for 10–20 minutes).",
+      "pay_note": "Ticketless ANPR with payment at exit — contactless card or phone wallet only.",
+      "pickup_note": "The same Express area is signed for pick-ups at the same £4 minimum. Cheaper options: the Long Stay gives 10 minutes free (take a ticket; £7 up to an hour after), and Blue Badge holders get up to 2 hours free in the Short Stay via the Car Park Assistance Office. Don't stop on the no-stopping zones — they're enforced.",
+      "exemptions": "Blue Badge holders get up to 2 hours free in the Short Stay car park — present the entry ticket and badge at the Car Park Assistance Office."
     },
     {
       "airport": "Cardiff Wales",
@@ -513,10 +690,10 @@
         "detail": "20 minutes free, walkable",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.cardiff-airport.com",
-      "official_check": "https://www.cardiff-airport.com",
+      "official_check": "https://cardiff-airport.com/parking-cwl/drop-off-and-pick-up-cwl/",
       "previous_fee_gbp": 3.0,
       "previous_fee_year": 2025,
       "lat": 51.3987,
@@ -524,7 +701,9 @@
       "colour": "Cardiff has a single terminal, so the 20-minutes-free option in Car Park 2 is a short walk of about five minutes to the door, with no shuttle bus needed.",
       "colour_source": "https://www.cardiff-airport.com/parking-cwl/car-park-2/",
       "fact": "Cardiff is where British Airways sends its long-haul jets for major servicing — the £70m maintenance hangar beside the runway opened in 1993 for the 747 fleet, and BA's engineers there now overhaul its 777s and 787 Dreamliners.",
-      "fact_source": "https://en.wikipedia.org/wiki/British_Airways_Maintenance_Cardiff"
+      "fact_source": "https://en.wikipedia.org/wiki/British_Airways_Maintenance_Cardiff",
+      "dropoff_location": "The drop-off zone is directly outside the terminal — the closest access to the doors.",
+      "pickup_note": "Cardiff's budget option covers collections too: Car Park 2 gives 20 minutes free a short walk from the terminal (£6 for 20–40 minutes if you run over), against £4.50 for 10 minutes at the zone itself."
     },
     {
       "airport": "Bournemouth",
@@ -534,24 +713,32 @@
       "free_minutes": 30,
       "window_note": "£8 for up to 30 minutes — longest paid window",
       "overstay": "£15 for 30–60 minutes",
-      "payment": "Barrier",
+      "payment": "Take a ticket; pay at the pay stations (cash/card) or exit barrier (card) before leaving",
       "free_alternative": {
         "exists": false,
         "name": null,
         "detail": "No free option prominently published",
         "transfer": null
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.bournemouthairport.com",
-      "official_check": "https://www.bournemouthairport.com",
+      "official_check": "https://www.bournemouthairport.com/car-parking/",
       "note": "Applies 24 hours a day via barrier on exit; no free option at the terminal",
       "lat": 50.7803,
       "lon": -1.8425,
       "colour": "The Express drop-off is inside Car Park 1 directly opposite the terminal, reached via the left-hand lanes, with a zebra crossing between the bays and the building.",
       "colour_source": "https://www.bournemouthairport.com/car-parking/",
       "fact": "Bournemouth Airport opened as RAF Hurn in August 1941 and served as London's transatlantic airport until Heathrow opened in 1946 — in that era Pan Am flew from Hurn to New York five days a week.",
-      "fact_source": "https://www.bournemouthairport.com/bournemouth-airport-celebrates-85-years-of-serving-the-region/"
+      "fact_source": "https://www.bournemouthairport.com/bournemouth-airport-celebrates-85-years-of-serving-the-region/",
+      "dropoff_location": "The Express Drop-off/Pick-up spaces are inside Car Park 1, directly across from the terminal — take a ticket at the barrier and the express bays are on your left.",
+      "pay_type": "barrier",
+      "pay_methods": "Before you exit: the pay station in Arrivals (card only), the express pay stations in the car park (cash or card), or card/phone at the exit barrier",
+      "pay_deadline": "before you drive out — at a pay station or the exit barrier",
+      "pay_penalty": "You pay before leaving; longer stays climb the tariff — £15 to an hour, £20 to four hours.",
+      "pay_note": "Take-a-ticket barriers with pay-before-exit — machines take cash or card, the exit barrier takes card or phone.",
+      "pickup_note": "The same Express area in Car Park 1 serves pick-ups at the same £8-for-30-minutes rate — the longest paid window of any major UK airport, so most collections fit without a top-up. There's no free alternative at Bournemouth.",
+      "exemptions": "Blue Badge spaces sit within the Express area — Blue Badge holders can stay up to 4 hours but are charged only the 30-minute rate."
     },
     {
       "airport": "Southampton",
@@ -561,17 +748,17 @@
       "free_minutes": 20,
       "window_note": "£7 for up to 20 minutes in the Pick Up & Drop Off area, ground floor of the short-stay multi-storey, 1-minute walk from terminal",
       "overstay": "Escalating charges",
-      "payment": "Barrier",
+      "payment": "Card or contactless at the exit barrier — no cash",
       "free_alternative": {
         "exists": false,
         "name": null,
         "detail": "No free drop-off currently offered",
         "transfer": null
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.southamptonairport.com",
-      "official_check": "https://www.southamptonairport.com",
+      "official_check": "https://www.southamptonairport.com/to-from/pick-up-drop-off/",
       "lat": 50.9503,
       "lon": -1.3568,
       "colour": "Southampton's drop-off is undercover, and the airport warns that sat-navs often misdirect drivers onto the restricted terminal forecourt — follow the on-site signs to the short-stay car park entrance instead.",
@@ -580,7 +767,15 @@
       "rail": "Southampton Airport Parkway is linked to the terminal by a covered footbridge with a lift — the airport describes it as 99 steps and under a minute from train to terminal",
       "rail_source": "https://www.southamptonairport.com/to-from/by-train/",
       "fact": "The prototype Supermarine Spitfire made its maiden flight from here — then Eastleigh Aerodrome — on 5 March 1936. After the eight-minute flight, test pilot “Mutt” Summers famously declared: “Don't change a thing.”",
-      "fact_source": "https://www.raf.mod.uk/display-teams/battle-of-britain-memorial-flight/news/commemorating-history-the-90th-anniversary-of-the-spitfire/"
+      "fact_source": "https://www.raf.mod.uk/display-teams/battle-of-britain-memorial-flight/news/commemorating-history-the-90th-anniversary-of-the-spitfire/",
+      "dropoff_location": "The Pick Up & Drop Off area is undercover on the ground floor of the Short Stay car park, a one-minute walk from the terminal — your plate is scanned at the barrier on the way in.",
+      "pay_type": "barrier",
+      "pay_methods": "Credit/debit card or contactless at the exit barrier — no cash",
+      "pay_deadline": "at the exit barrier as you leave",
+      "pay_penalty": "You pay on exit; if 20 minutes won't be enough, the airport suggests the Short Stay's normal rates instead (1–3 minutes' walk).",
+      "pay_note": "Card or contactless at the exit barrier — Southampton takes no cash and there's nothing to pay online.",
+      "pickup_note": "The same undercover area serves pick-ups at the same £7-for-20-minutes rate. Southampton says plainly that it offers no free pick-up or drop-off option — for a longer wait, the Short Stay is a 1–3-minute walk with pay-on-exit rates.",
+      "exemptions": "Blue Badge passengers travelling by taxi should tell the car park operator so the 30-minute validation is applied at exit."
     },
     {
       "airport": "Glasgow Prestwick",
@@ -597,7 +792,7 @@
         "detail": "Long window makes an alternative largely unnecessary",
         "transfer": null
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.glasgowprestwick.com",
       "official_check": "https://www.glasgowprestwick.com",
@@ -606,7 +801,14 @@
       "colour": "Car Park 1 is directly outside the terminal, and unusually Prestwick has its own railway station on the Glasgow–Ayr line, linked to the terminal by a short covered walkway — a step-free alternative to being driven.",
       "colour_source": "https://www.glasgowprestwick.com/to-and-from-the-airport/",
       "fact": "Prestwick is the only place in Britain where Elvis Presley ever set foot: on 3 March 1960 his US military transport stopped to refuel for around 90 minutes on his way home from Army service, and he chatted with astonished fans on the tarmac.",
-      "fact_source": "https://www.glasgowworld.com/retro/elvis-presleys-one-and-only-visit-to-the-uk-in-prestwick-airport-of-all-places-britain-did-elvis-ever-come-to-the-uk-perform-visit-press-4085504"
+      "fact_source": "https://www.glasgowworld.com/retro/elvis-presleys-one-and-only-visit-to-the-uk-in-prestwick-airport-of-all-places-britain-did-elvis-ever-come-to-the-uk-perform-visit-press-4085504",
+      "dropoff_location": "Car Park 1 is directly outside the terminal — the £4.50 covers a full hour, so there's no separate express lane and no clock-watching.",
+      "pay_type": "barrier",
+      "pay_methods": "Strictly cashless — contactless or card at the barriers or pay stations",
+      "pay_deadline": "at the barrier or pay station before you leave",
+      "pay_penalty": "Beyond the hour, standard parking rates simply apply — there's no penalty tier.",
+      "pay_note": "Cashless only — pay by card or contactless at the barrier or pay stations.",
+      "pickup_note": "Pick-ups share Car Park 1's £4.50-for-60-minutes window — the most generous paid window in the UK, long enough for a late bag or a slow arrival without a top-up."
     },
     {
       "airport": "London Southend",
@@ -615,18 +817,18 @@
       "fee_gbp": 8.0,
       "free_minutes": 10,
       "window_note": "£8 for up to 10 minutes in the Express Pick-up and Drop-off area",
-      "overstay": "Escalating charges",
-      "payment": "Barrier",
+      "overstay": "Maximum stay 10 minutes — overstays bring a Parking Charge Notice",
+      "payment": "Barrierless ANPR — pay online at express.londonsouthendairport.com by midnight the following day",
       "free_alternative": {
-        "exists": true,
-        "name": "Long Stay car park",
-        "detail": "Free period, walk to terminal",
-        "transfer": "walk"
+        "exists": false,
+        "name": null,
+        "detail": "Southend withdrew its free drop-off option — the £8 Express area is the only set-down",
+        "transfer": null
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://southendairport.com",
-      "official_check": "https://southendairport.com",
+      "official_check": "https://londonsouthendairport.com/getting-to-and-from/parking/express-pick-up-drop-off/",
       "lat": 51.5713,
       "lon": 0.6936,
       "colour": "Southend's Express drop-off sits directly opposite the terminal, so you pull in facing the building rather than alongside it.",
@@ -635,7 +837,17 @@
       "rail": "Southend Airport station sits directly opposite the terminal, a covered walkway of around 100 steps away",
       "rail_source": "https://londonsouthendairport.com/getting-to-and-from/trains/",
       "fact": "In the 1950s and 60s motorists could fly their cars across the Channel from Southend — the “air ferry” flights of Channel Air Bridge carried vehicles and their owners to Calais, Ostend and Rotterdam, moving almost 15,000 cars a year by 1958.",
-      "fact_source": "https://en.wikipedia.org/wiki/Channel_Air_Bridge"
+      "fact_source": "https://en.wikipedia.org/wiki/Channel_Air_Bridge",
+      "dropoff_location": "The Express Pick-up and Drop-off area sits adjacent to the Superior car park, directly opposite the terminal — you pull in facing the building. It's barrierless: no barriers, no tickets.",
+      "pay_type": "postpay",
+      "pay_methods": "Online only, at express.londonsouthendairport.com",
+      "pay_deadline": "by midnight the following day",
+      "pay_penalty": "Overstaying the 10-minute maximum, or missing the payment deadline, brings a Parking Charge Notice.",
+      "pay_url": "https://express.londonsouthendairport.com",
+      "pay_note": "No barriers and no tickets — ANPR cameras log your plate and you pay on the airport's website afterwards.",
+      "pickup_note": "The same Express area serves pick-ups at the same £8 for up to 10 minutes. Southend no longer offers any free drop-off or pick-up option — it was withdrawn — so a longer wait means the paid car parks.",
+      "previous_fee_gbp": 7.0,
+      "previous_fee_year": 2025
     },
     {
       "airport": "Cornwall Newquay",
@@ -648,11 +860,11 @@
       "payment": "None required within free period",
       "free_alternative": {
         "exists": true,
-        "name": "Terminal forecourt",
-        "detail": "Drop-off itself is free",
+        "name": "West Car Park",
+        "detail": "The drop-off itself is free — 10 minutes inside the barriered West Car Park",
         "transfer": "walk"
       },
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.cornwallairportnewquay.com",
       "official_check": "https://www.cornwallairportnewquay.com",
@@ -662,7 +874,8 @@
       "colour": "There's no separate kerbside lane — Newquay's free 10 minutes is taken inside the West Car Park via a barrier, one of three on-site car parks the airport says are all within walking distance of the terminal.",
       "colour_source": "https://www.cornwallairportnewquay.com/airport-parking/",
       "fact": "Cornwall Airport Newquay doubles as Spaceport Cornwall, the UK's first licensed spaceport, which staged Britain's first horizontal space launch in 2023 — and its runway welcomed Air Force One when Cornwall hosted the G7 summit in 2021.",
-      "fact_source": "https://www.cornwallairportnewquay.com/about-us/airport-history/"
+      "fact_source": "https://www.cornwallairportnewquay.com/about-us/airport-history/",
+      "dropoff_location": "There's no kerbside lane — the free 10 minutes is taken inside the barriered West Car Park, one of three on-site car parks all within walking distance of the terminal."
     },
     {
       "airport": "Exeter",
@@ -679,7 +892,7 @@
         "detail": "Free for up to 30 minutes for drop-off and pick-up",
         "transfer": "walk"
       },
-      "verified": "2026-08-21",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://exeter-airport.co.uk/car-parking/",
       "official_check": "https://exeter-airport.co.uk/car-parking/",
@@ -688,7 +901,14 @@
       "lat": 50.7344,
       "lon": -3.4139,
       "fact": "Exeter Airport opened on 31 May 1937 — though the very first aircraft to land there, three weeks earlier, was a Leopard Moth delivering coronation photographs in the month George VI was crowned.",
-      "fact_source": "https://exeter-airport.co.uk/about-us/"
+      "fact_source": "https://exeter-airport.co.uk/about-us/",
+      "dropoff_location": "Car Park P1 has dedicated drop-off and pick-up bays directly opposite the Main Terminal — stopping on the terminal approach roads isn't permitted.",
+      "pay_type": "barrier",
+      "pay_methods": "Card at the exit barrier or the pay stations",
+      "pay_deadline": "at the barrier or pay station before you leave",
+      "pay_penalty": "You pay before leaving; longer stays climb the tariff — £15 to an hour, £20 to four hours.",
+      "pay_note": "Barrier-controlled with card payment at the exit barrier or pay stations.",
+      "pickup_note": "P1's bays are signed for pick-ups as well as drop-offs, at the same £8 for up to 15 minutes. The cheaper option is Car Park P4: free for up to 30 minutes for both drop-offs and collections, a short walk from the terminal."
     },
     {
       "airport": "Norwich",
@@ -705,7 +925,7 @@
         "detail": "No free drop-off published; stopping on approach roads and roundabouts is prohibited",
         "transfer": null
       },
-      "verified": "2026-08-21",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.norwichairport.co.uk/car-parking/",
       "official_check": "https://www.norwichairport.co.uk/car-parking/",
@@ -717,7 +937,13 @@
       "lat": 52.6758,
       "lon": 1.2828,
       "fact": "Norwich Airport began life as RAF Horsham St Faith, and in August 1941 an aircraft from the base parachuted a replacement artificial leg to the captured RAF ace Douglas Bader. Three of the original 1930s hangars are still used for aircraft maintenance today.",
-      "fact_source": "https://www.norwichairport.co.uk/raf100-history/"
+      "fact_source": "https://www.norwichairport.co.uk/raf100-history/",
+      "dropoff_location": "Drop-off is only permitted in the designated lane on the left inside Car Park 1, directly in front of the terminal — press for a ticket at the barrier and use the drop-off lane.",
+      "pay_type": "barrier",
+      "pay_methods": "Take a ticket at the barrier; card-only payment at the exit barrier or pay stations",
+      "pay_deadline": "at the exit barrier or pay station before you leave",
+      "pay_penalty": "You pay before leaving; longer stays climb the tariff — £15 to an hour, £20 to four hours.",
+      "pay_note": "Ticket at the barrier on the way in, card-only payment on the way out — no cash."
     },
     {
       "airport": "Teesside",
@@ -734,7 +960,7 @@
         "detail": "Up to 2 hours free in the same car park with a minimum £5 spend in the landside café or shops — show your receipt for validation",
         "transfer": "walk"
       },
-      "verified": "2026-08-21",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.teessideinternational.com/parking/",
       "official_check": "https://www.teessideinternational.com/parking/",
@@ -744,7 +970,14 @@
       "lat": 54.5092,
       "lon": -1.4294,
       "fact": "Teesside is the UK airport renamed by popular demand: after 15 years as “Durham Tees Valley”, a 2018 public poll of around 14,000 people saw 93% back a return to the Teesside name, restored in July 2019.",
-      "fact_source": "https://teesvalley-ca.gov.uk/news/back-to-the-future-teesside-international-airport-returns/"
+      "fact_source": "https://teesvalley-ca.gov.uk/news/back-to-the-future-teesside-international-airport-returns/",
+      "dropoff_location": "The main car park sits directly opposite the terminal — the airport says you can walk from your car straight into the terminal in seconds. Ticketless ANPR.",
+      "pay_type": "barrier",
+      "pay_methods": "Card at the exit barrier, or cash/card at the pay-on-foot machines in arrivals",
+      "pay_deadline": "on exit — the cameras work out your stay",
+      "pay_penalty": "You pay as you leave; longer stays climb the tariff — £5 to an hour, £7 per hour after.",
+      "pay_note": "Ticketless ANPR — pay by card at the exit barrier or at the machines in arrivals (cash or card).",
+      "pickup_note": "Pick-ups use the same car park and the same £2.50-for-10-minutes tariff. The trick worth knowing: spend £5 or more in the landside café or shops and the same car park is free for up to 2 hours — show your receipt for validation. Ideal for meeting a flight."
     },
     {
       "airport": "Inverness",
@@ -761,7 +994,7 @@
         "detail": "15 minutes free in the Short Stay car park, about a 5-minute walk to the terminal — no return within one hour",
         "transfer": "walk"
       },
-      "verified": "2026-08-21",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.hial.co.uk/inverness-airport/",
       "official_check": "https://www.hial.co.uk/inverness-airport/",
@@ -775,7 +1008,14 @@
       "lat": 57.5425,
       "lon": -4.0475,
       "fact": "A statue in the arrivals area honours Captain Ted Fresson, the Highland aviation pioneer who carried the Royal Mail's first domestic airmail by air from Inverness to Orkney in May 1934.",
-      "fact_source": "https://www.undiscoveredscotland.co.uk/usbiography/f/tedfresson.html"
+      "fact_source": "https://www.undiscoveredscotland.co.uk/usbiography/f/tedfresson.html",
+      "dropoff_location": "The Premium, Accessible & Drop Off car park is directly in front of the terminal. The free drop-off area is separate — a short-stay car park reached by following the green signs, about a 5-minute walk.",
+      "pay_type": "barrier",
+      "pay_methods": "Pay-on-foot machines (cash or card) or card at the exit barriers",
+      "pay_deadline": "at the machines or exit barrier before you leave",
+      "pay_penalty": "You pay before leaving; longer stays climb the tariff — £10.80 to an hour, £13.70 to three.",
+      "pay_note": "Pay-on-foot machines take cash or card; the exit barriers take card.",
+      "pickup_note": "Pick-ups work from the same premium car park at the same £3.90-for-30-minutes tariff — or use the free area's 15 minutes (about a 5-minute walk, no return within one hour) if your timing is good."
     },
     {
       "airport": "Humberside",
@@ -792,7 +1032,7 @@
         "detail": "The drop-off point itself is free for 15 minutes; all car parks are within a 5-minute walk of the terminal",
         "transfer": "walk"
       },
-      "verified": "2026-08-21",
+      "verified": "2026-08-25",
       "verification": "secondary",
       "source": "https://www.britaincarparks.co.uk/humberside-airport-parking",
       "official_check": "https://www.humbersideairport.com",
@@ -802,7 +1042,8 @@
       "lat": 53.5762,
       "lon": -0.3495,
       "fact": "Humberside may be one of Britain's quietest passenger airports, but it's a heavyweight heliport — its helicopter flights serving North Sea gas platforms topped 5,000 movements in 2016, the fourth-highest of any UK airport.",
-      "fact_source": "https://en.wikipedia.org/wiki/Humberside_Airport"
+      "fact_source": "https://en.wikipedia.org/wiki/Humberside_Airport",
+      "dropoff_location": "The drop-off point is inside Short Stay Car Park 1 — the airport's access guide says every car park is within five minutes' walk of the terminal."
     },
     {
       "airport": "City of Derry",
@@ -819,7 +1060,7 @@
         "detail": "No free general drop-off; Blue Badge holders get the first 2 hours free in designated bays",
         "transfer": null
       },
-      "verified": "2026-08-21",
+      "verified": "2026-08-25",
       "verification": "official",
       "source": "https://www.cityofderryairport.com/car-parking-info/",
       "official_check": "https://www.cityofderryairport.com/car-parking-info/",
@@ -828,7 +1069,15 @@
       "lat": 55.0428,
       "lon": -7.1611,
       "fact": "Amelia Earhart ended the first solo transatlantic flight by a woman in a farm field just outside Derry on 21 May 1932 — asked by a startled farmhand where she had come from, she replied simply, “America.” The airport's departure lounge is named in her honour.",
-      "fact_source": "https://www.bbc.co.uk/news/uk-northern-ireland-32934928"
+      "fact_source": "https://www.bbc.co.uk/news/uk-northern-ireland-32934928",
+      "dropoff_location": "A single 500-space pay-on-foot car park sits directly outside the terminal entrance — parking isn't permitted in the set-down areas or on the access roads.",
+      "pay_type": "barrier",
+      "pay_methods": "Pay stations take Sterling and Euro cash and all major cards; there's also a staffed customer-service desk",
+      "pay_deadline": "at the pay stations before you return to your car",
+      "pay_penalty": "You pay before leaving; longer stays simply climb the tariff — £2.50 to an hour, £3.50 to two.",
+      "pay_note": "Classic pay-on-foot: take a ticket, pay at the station (Sterling, Euro or card) before you leave.",
+      "pickup_note": "Pick-up works exactly the same, in the same car park, at the same tariff — £1 buys up to 20 minutes, the cheapest collection at any UK airport we track.",
+      "exemptions": "Blue Badge holders park free for the first 2 hours in the designated bays."
     }
   ]
 }
