@@ -3,10 +3,9 @@ message: "If you use this dataset, please cite it as below."
 title: "UK Airport Drop-Off Charges Dataset"
 type: dataset
 authors:
-  - family-names: Tipney
-    given-names: Richard
+  - name: "Airport Drop-Off Charges"
 url: "https://airportdropoffcharges.co.uk"
 license: CC-BY-4.0
-version: "2026-08-21"
-date-released: "2026-08-21"
-abstract: "Verified drop-off and pick-up charges at 29 UK airports: fee, free period, overstay penalty, payment method and free alternative, each row dated and sourced to the airport's own published charges."
+version: "2026-09-05"
+date-released: "2026-09-05"
+abstract: "Verified drop-off and pick-up charges at 29 UK airports: fee, free period, overstay penalty, payment method and deadline, drop-off zone location, pick-up rules, Blue Badge arrangements, fee history and free alternative, each row dated and sourced to the airport's own published charges."
