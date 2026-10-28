@@ -1,0 +1,204 @@
+{
+  "upcoming": [
+    {
+      "kind": "parking_guides",
+      "when": "Next parking guides",
+      "text": "More airports, one at a time. Each guide is checked against the airport's own pages before it goes live."
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-28",
+      "iata": "HUY",
+      "type": "correction",
+      "text": "Humberside confirmed against the airport's own Turn Up and Park page for the first time (until now our figures came from a third-party site): drop-off is free for up to 15 minutes in Short Stay Car Park 1, next to the terminal, then £5 up to an hour. You pay at the ticket machines in and around the terminal, by card or cash.",
+      "source": "https://www.humbersideairport.com/car-parking/turn-up-and-park"
+    },
+    {
+      "date": "2026-10-28",
+      "iata": "BFS",
+      "type": "correction",
+      "text": "Belfast International re-checked against the airport's drop-off page: £5 for up to 10 minutes directly opposite the terminal, paid at the coin or card machine on exit, then £8 to 20 minutes and £13 to an hour. We've added the £60 charge for stays over an hour.",
+      "source": "https://www.belfastairport.com/parking/pick-up-and-drop-off"
+    },
+    {
+      "date": "2026-10-28",
+      "iata": "LPL",
+      "type": "correction",
+      "text": "Liverpool re-checked against the airport's Express Drop-off and Pick-up page: £7 for up to 10 minutes since 1 September 2026, then £10 to 20 minutes, £25 to an hour and £50 a day. Free Drop-off 2 is still 20 minutes free, about a 7-minute walk away, and leaving and returning within two hours costs a minimum £9, which we've now added.",
+      "source": "https://www.liverpoolairport.com/parking/express-drop-off"
+    },
+    {
+      "date": "2026-10-26",
+      "iata": null,
+      "type": "correction",
+      "text": "Corrected the cost of a lift there and back on our Gatwick and Birmingham parking guides. It now prices the collection where each airport says pick-ups should happen: Short Stay at Gatwick (£10 drop-off plus £8, so £18) and Car Park 5 at Birmingham (£8 plus £12, so £20), not the drop-off zone. Also redated Leeds Bradford's rise to £8 to 2 March 2026, when it took effect.",
+      "source": null
+    },
+    {
+      "date": "2026-10-25",
+      "iata": null,
+      "type": "review",
+      "text": "Fee-history audit of every airport against dated sources. Corrected the previous charge at Leeds Bradford (£7, not £6.50), Liverpool (£6, not £5), Edinburgh (£6, not £5) and Bristol (£7, not £6), and added the previous charge where we had none: Aberdeen (£5.50), Newcastle (£5), Belfast City (£3), Bournemouth (£6), Southampton (£6), Exeter (£6) and Glasgow (£6). Also added missing Blue Badge rules at Glasgow Prestwick, Exeter, Inverness, Southampton, Bristol and Birmingham, clarified that City of Derry's 2 free hours are for Blue Badge vehicles only, and marked Cardiff as secondary-sourced while its website is rebuilt.",
+      "source": null
+    },
+    {
+      "date": "2026-10-25",
+      "iata": "LHR",
+      "type": "correction",
+      "text": "Heathrow corrected: the charge went from £6 to £7 on 1 January 2026 (it started at £5 in November 2021 and became £6 in January 2025), not from £5 in 2023 as we showed. We've also added the 10-minute maximum stay Heathrow introduced alongside the £7 charge, and the Terminal 4 pick-up changes after its multi-storey car park closed on 23 June 2026.",
+      "source": "https://heathrowterminaldropoff-helpcentre.apcoa.com/hc/en-gb/articles/5213485083295-Upcoming-Changes-to-Heathrow-Terminal-Drop-Off-and-Pricing"
+    },
+    {
+      "date": "2026-10-25",
+      "iata": "LTN",
+      "type": "correction",
+      "text": "Luton's fee history corrected: before the current £9 for 12 minutes, the charge was £7 for 10 minutes from late September 2025 (and £5 before that), so the latest rise is about 29%. Our record had listed £5 as the previous fee.",
+      "source": "https://www.london-luton.co.uk/to-and-from-lla/dropping-off"
+    },
+    {
+      "date": "2026-10-25",
+      "iata": "LBA",
+      "type": "correction",
+      "text": "Leeds Bradford's full Pick Up & Drop Off tariff confirmed from the airport's parking FAQs: £8 for up to 10 minutes, £10 to 20 minutes, £13.50 to 30 and £16.50 to an hour, then £16.50 an hour. Travelling Blue Badge holders can stay up to 60 minutes for £8, and payment is by card or Apple Pay as you leave (ticketless). Two other airport pages still show the older £6.50.",
+      "source": "https://www.leedsbradfordairport.co.uk/help/faqs/parking"
+    },
+    {
+      "date": "2026-10-25",
+      "iata": "LCY",
+      "type": "correction",
+      "text": "London City corrected: the drop-off zone was free until the £8 charge began on 6 January 2026, so there was no earlier £6 fee as our record showed. Pick-ups use the Pick-Up Zone in the Short Stay car park (from £10 for 20 minutes), and the operator publishes only the discounted £60 Parking Charge amount, so we no longer quote £100.",
+      "source": "https://londoncityairport-helpcentre.apcoa.com/hc/en-gb/articles/5187087121951-I-did-not-make-a-payment-what-should-I-do"
+    },
+    {
+      "date": "2026-10-24",
+      "iata": "EMA",
+      "type": "correction",
+      "text": "East Midlands corrected: picking up from Short Stay 1 costs £12 for up to 30 minutes and £14 for up to an hour, not the £6 we showed. The Rapid Drop Off charge (£8 for 10 minutes) and Long Stay 2's free hour are unchanged.",
+      "source": "https://www.eastmidlandsairport.com/parking/pick-up-and-drop-off/"
+    },
+    {
+      "date": "2026-10-02",
+      "iata": "NCL",
+      "type": "correction",
+      "text": "Newcastle corrected: the Express Car Park's exit takes cards only, but the airport says cash can still be paid at designated cash payment machines (we had described it as card only). We also now flag that the airport's own pages give two different sets of hours for the free Waiting Zone shuttle bus.",
+      "source": "https://www.newcastleairport.com/car-parking/car-parking-options/"
+    },
+    {
+      "date": "2026-10-02",
+      "iata": "LTN",
+      "type": "correction",
+      "text": "Luton corrected: the pick-up note still quoted the old charge of £7 for 10 minutes. Pick-ups use the same Drop Off and Pick Up Zone at the current £9 for up to 12 minutes.",
+      "source": "https://www.london-luton.co.uk/to-and-from-lla/dropping-off"
+    },
+    {
+      "date": "2026-09-29",
+      "iata": "EMA",
+      "type": "rise",
+      "text": "East Midlands Airport raised its Rapid Drop Off charge from £5 to £8 for up to 10 minutes (then £1 per minute to a 30-minute maximum), effective 3pm on 29 September 2026. The £5 fee had stood since 2021, so the charge is up 60% — and the time it covers is cut from 15 minutes to 10. Payment stays barrierless: pay online by midnight the day after your visit.",
+      "source": "https://www.eastmidlandsairport.com/getting-to-and-from/pick-up-and-drop-off/",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-09-11",
+      "iata": "LTN",
+      "type": "rise",
+      "text": "Reported on 11 September 2026: London Luton has raised its drop-off charge from £7 to £9 for up to 12 minutes (then £1 per minute to a 30-minute maximum). It was £5 until late September 2025, so the charge has risen 80% in about a year, and at £9 Luton is now the third-most-expensive UK drop-off, behind only Gatwick and Stansted at £10.",
+      "source": "https://www.london-luton.co.uk",
+      "page": true,
+      "date_kind": "reported"
+    },
+    {
+      "date": "2026-09-01",
+      "iata": "LPL",
+      "type": "rise",
+      "text": "Liverpool raised its Express gate rate from £6 to £7 for up to 10 minutes; it was £5 until March 2025. The longer tiers (£10 to 20 minutes, £25 to an hour) are unchanged.",
+      "source": "https://www.liverpoolairport.com/parking/express-drop-off",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-08-25",
+      "iata": null,
+      "type": "review",
+      "text": "Full verification sweep of all 29 airports: drop-off zone locations, payment methods and deadlines, pick-up rules and Blue Badge arrangements checked against each airport's own pages.",
+      "source": null
+    },
+    {
+      "date": "2026-08-25",
+      "iata": "EMA",
+      "type": "correction",
+      "text": "East Midlands corrected: the Rapid Drop Off is £5 for up to 15 minutes (we previously showed £6 for 30 minutes, a figure that belonged to Short Stay 1). The airport's page also confirms the lanes are drop-off only.",
+      "source": "https://www.eastmidlandsairport.com/parking/pick-up-and-drop-off/"
+    },
+    {
+      "date": "2026-08-25",
+      "iata": "LPL",
+      "type": "rise",
+      "text": "Liverpool's Express gate rate confirmed at £6 for 10 minutes — up from £5 in 2025. The rise is now in our fee-history table.",
+      "source": "https://www.liverpoolairport.com/parking/express-drop-off"
+    },
+    {
+      "date": "2026-08-25",
+      "iata": "SEN",
+      "type": "correction",
+      "text": "Southend updated: the Express area is barrierless ANPR paid online by midnight the following day, and the airport has withdrawn its free drop-off option entirely.",
+      "source": "https://londonsouthendairport.com/getting-to-and-from/parking/express-pick-up-drop-off/"
+    },
+    {
+      "date": "2026-08-06",
+      "iata": "BHX",
+      "type": "rise",
+      "text": "Birmingham raised Premium Set Down, outside the terminal, from £7 to £8 for up to 15 minutes at 9am on 6 August 2026, and put the Drop Off car park's charges up by £1 too: it is still free for 10 minutes, then £7 for 10–15 minutes. The airport's drop-off and pick-up page still says £7. (We spotted the change on 17 October 2026.)",
+      "source": "https://www.birminghamairport.co.uk/important-updates-premium-set-down-and-drop-off-car-park-tariffs/",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-07-01",
+      "iata": "CWL",
+      "type": "rise",
+      "text": "Cardiff raised its drop-off charge from £3 to £4.50 for 10 minutes (and £4.50 per additional 10 minutes) — up 50%.",
+      "source": "https://www.cardiff-airport.com",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-03-19",
+      "iata": "STN",
+      "type": "rise",
+      "text": "Stansted's Express Set Down changed to £10 for up to 15 minutes and £28 for over 15 minutes.",
+      "source": "https://www.stanstedairport.com/parking/pick-up-and-drop-off/",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-03-09",
+      "iata": "BFS",
+      "type": "rise",
+      "text": "Belfast International raised its drop-off charge from £3 to £5 for 10 minutes — a 67% jump, the biggest percentage rise of 2026 so far.",
+      "source": "https://www.belfastairport.com",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-03-02",
+      "iata": "LBA",
+      "type": "rise",
+      "text": "Leeds Bradford raised its Pick Up & Drop Off charge from £7 to £8 for up to 10 minutes on 2 March 2026, up about 14%. The £7 rate had been in place since summer 2024, after £6.50 from April 2024.",
+      "source": "https://thestrayferret.co.uk/leeds-bradford-parking-charge-increases-meet-with-backlash",
+      "page": true,
+      "date_kind": "effective"
+    },
+    {
+      "date": "2026-01-06",
+      "iata": "LCY",
+      "type": "new-charge",
+      "text": "London City introduced a drop-off charge for the first time: £8 for up to 5 minutes, £1 per additional minute to a 10-minute maximum, ANPR-enforced and paid online.",
+      "source": "https://dropoff.londoncityairport.com",
+      "page": true,
+      "date_kind": "effective"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "UK Airport Drop-Off Charges Dataset"
+type: dataset
+authors:
+  - name: "Airport Drop-Off Charges"
+    website: "https://airportdropoffcharges.co.uk/"
+version: "2026-10-28"
+date-released: "2026-10-28"
+license: CC-BY-4.0
+url: "https://airportdropoffcharges.co.uk/"
+repository-code: "https://github.com/airportdropoffcharges/uk-airport-drop-off-charges"
+keywords:
+  - UK airports
+  - airport drop-off charges
+  - kiss and fly
+  - airport pick-up charges
+  - open data

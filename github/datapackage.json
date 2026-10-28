@@ -1,0 +1,107 @@
+{
+  "name": "uk-airport-drop-off-charges",
+  "title": "UK Airport Drop-Off Charges Dataset",
+  "description": "Verified, dated drop-off and pick-up charges at 29 UK airports. Updated 28 Oct 2026.",
+  "version": "2026-10-28",
+  "homepage": "https://airportdropoffcharges.co.uk/",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Airport Drop-Off Charges",
+      "path": "https://airportdropoffcharges.co.uk/",
+      "role": "publisher"
+    }
+  ],
+  "resources": [
+    {
+      "name": "airports",
+      "path": "data/airports.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "airport",
+            "type": "string",
+            "description": "Airport name."
+          },
+          {
+            "name": "iata",
+            "type": "string",
+            "description": "Three-letter IATA airport code, for example LHR."
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "UK nation or English region."
+          },
+          {
+            "name": "fee_gbp",
+            "type": "number",
+            "description": "The charge in pounds for the drop-off zone nearest the terminal. 0 means it is free."
+          },
+          {
+            "name": "free_minutes",
+            "type": "integer",
+            "description": "The time allowance in minutes: how long the charge covers, or how long is free at an airport that doesn't charge. 0 means a charge per entry with no time allowance. The name is historical."
+          },
+          {
+            "name": "window_note",
+            "type": "string",
+            "description": "The charge and its time limit in plain English."
+          },
+          {
+            "name": "overstay",
+            "type": "string",
+            "description": "What a longer stay costs."
+          },
+          {
+            "name": "free_alternative",
+            "type": "string",
+            "description": "The airport's own free or cheaper place to drop off. In the CSV this is its name, or \"None\". In the JSON it is an object: exists, name, detail, transfer (how you get to the terminal from it) and, for some airports, allow (how much extra time to leave)."
+          },
+          {
+            "name": "alt_detail",
+            "type": "string",
+            "description": "CSV only: a description of the free alternative. In the JSON this is free_alternative.detail."
+          },
+          {
+            "name": "verified",
+            "type": "date",
+            "description": "The date this airport's figures were last checked, as YYYY-MM-DD."
+          },
+          {
+            "name": "verification",
+            "type": "string",
+            "description": "official: confirmed on the airport's own website. secondary: confirmed against published comparisons instead."
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "The website the figures were checked against."
+          }
+        ],
+        "primaryKey": "iata"
+      }
+    },
+    {
+      "name": "airports-full",
+      "path": "data/airports.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "updates",
+      "path": "data/updates.json",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}
